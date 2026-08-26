@@ -1,0 +1,192 @@
+*******************************************************
+                SQL  
+*******************************************************
+
+
+Below Interview questions are collected from candidates who got placement in past 8 months :
+Companies ( TCS , HCL , CGI , TECHMAHINDRA , ALTRIMETRIX , WIPRO , Hexaware ,Accenture , Standard chartered , Synechron, Citibank, Aditya Birla , Capgemini , Virtusa Polaris , CTS, llyods banking , public sapient , Deliote )
+
+***************************************************
+
+
+
+
+
+1) Write a sql which lists Items which are never get purchased from last 2 years
+
+cust_id  | name  | contact_number   | 
+---------+-------+-------------------+
+Product
+-----------+----+---------------+--------- 
+Product_id |name|Description    |Stock   | 
+-----------+----+---------------+---------
+Order
+-----------+-------+---------------+-------------------+------+--------+ 
+Order_id   |Cust_id|Product_id     |Transaction_date   | Rate | Amount |
+----------+-----------------------+---------------------+-----+-------+
+
+2) Write a SQL query to get the Customers details who purchases the
+ same item more than 1 as a quantity for particular transaction
+
+Customer details present in customer table 
+item details present in item table 
+transcation details present in transcation table 
+
+3) 3) Below are two input tables 
+Employee table:
++----+-------+--------+--------------+
+| id | name  | salary | departmentId |
++----+-------+--------+--------------+
+| 1  | Joe   | 85000  | 1            |
+| 2  | Henry | 80000  | 2            |
+| 3  | Sam   | 60000  | 2            |
+| 4  | Max   | 90000  | 1            |
+| 5  | Janet | 69000  | 1            |
+| 6  | Randy | 85000  | 1            |
+| 7  | Will  | 70000  | 1            |
++----+-------+--------+--------------+
+ 
+Department table:
++----+-------+
+| id | name  |
++----+-------+
+| 1  | IT    |
+| 2  | Sales |
++----+-------+
+
+
+Output: 
++------------+----------+--------+
+| Department | Employee | Salary |
++------------+----------+--------+
+| IT         | Max      | 90000  |
+| IT         | Joe      | 85000  |
+| IT         | Randy    | 85000  |
+| IT         | Will     | 70000  |
+| Sales      | Henry    | 80000  |
+| Sales      | Sam      | 60000  |
++------------+----------+-------
+
+4) I have a travel table with from , to and distance columns. 
+I have repeated data in input dataset as from and to with equal distance. 
+I want you to write a query to get unique records from the input data set.
+
+Travel - table
+Input
+ 
+From To Distance
+FROM    TO      DISTANCE  
+Hyd 	Pune 	200            
+Pune 	Hyd 	200
+Hyd 	Pune 	300
+Mumbai 	Hyd 	300
+Hyd 	Mumbai 	300
+Hyd 	Chennai 160
+Chennai Mumbai 	200
+
+
+OUTPUT : 
+From 	To		  Distance 
+Hyd 	Pune 	  200
+Hyd 	Mumbai 	  300
+Hyd 	Chennai   160
+Chennai Mumbai 	  200
+
+5) 	
+stu_id, sub_id,score
+10,1,100  1
+11,1,100  1
+12,1,100  1
+13,1,100  1
+14,1,99  5
+
+
+Write a SQL query to get the top 3 students for every subject all 3 columns
+
+6) Let say we have two tables Tbl1 and tbl2 ....
+TBL1 
+Id
+1
+1
+1
+
+
+TB2
+Id
+1
+1
+1
+1
+
+Display the outputs of Inner join , outer join , left outer and right outer 
+
+7) Write a query to delete duplicate rows from a table.
+
+8) Write a query to retrieve the names of employees who work in the same department as ‘Ravi’.
+
+9) Write a query to display the second highest salary from the Employee table.
+
+10) Write a query to find all customers who have made more than Two orders.
+
+11) Write a query to count the number of orders placed by each customer.
+
+12) Write a query to retrieve the list of employees who joined in the last 3 months.
+
+13) Write a query to list all products that have never been sold.
+
+14) Write a query to find all employees who earn more than the average salary.
+
+15) Write a query to retrieve the list of employees who joined in the last 3 months.
+
+16)  Write a query to identify the top 10 customers who have not placed 
+an order in the last year.
+
+17) Write a query to join three tables and filter the results to show only records that exist in exactly two of the tables.
+
+18) Find the top 3 salespersons with the highest total sales amount, 
+along with their sales amount and ranking.
+
+19) Find the average salary of employees in each department, 
+along with the department name and the number of employees.
+
+20) Find the top 2 departments with the highest average salary, 
+along with the average salary and department name.
+
+21) Imagine a table named "Books" with columns: BookID, Title, AuthorID. 
+There's another table "Authors" with columns: AuthorID, AuthorName. 
+Write a SQL query to fetch the authors who don't have any books associated with them.
+
+Books 
+BookID  Title  AuthorID
+
+Authors
+AuthorId AuthorName 
+
+22) You are given a table named "WorkoutSessions" with columns: UserID, SessionDate, 
+IsCompleted (a boolean where 1 indicates completion and 0 indicates non-completion).
+Write a SQL query to identify users who have missed more than 5 consecutive workout sessions.
+
+23) Consider a table named "Sales" with columns: SalespersonID, CustomerID, SaleDate. 
+Write a SQL query to calculate the salesperson who made the highest number of sales each quarter.
+
+24) You have a table named "WebsiteTraffic" with columns: PageID, VisitDate, Visits. 
+Write a SQL query to find the top 5 pages that have shown the most significant
+ increase in visits month-over-month.
+
+25) Consider a table named "OnlineExams" with columns: ExamID, StudentID, EnrollmentDate, 
+CompletionDate. 
+Write a SQL query to determine the exams with the highest failure rate
+ (i.e., students enrolling but not passing).
+
+26) You have a table named "HotelBookings" with 
+columns: BookingID, CheckInDate, GuestID, HotelLocation. 
+Write a SQL query to determine which hotel location has seen a 
+consistent month-on-month increase in bookings over the last year.
+
+27) You are given a table named "Membership" with columns: MemberID, JoinDate, ExpirationDate. 
+Write a SQL query to count the number of active memberships on the last day of 
+each month in the past year.
+
+
+
+ 
