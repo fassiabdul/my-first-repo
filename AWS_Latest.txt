@@ -1,0 +1,59 @@
+*******************************************************
+                AWS - DE 
+*******************************************************
+
+
+Below Interview questions are collected from candidates who got placement in past 8 months :
+Companies ( TCS , HCL , CGI , TECHMAHINDRA , ALTRIMETRIX , WIPRO , Hexaware ,Accenture , Standard chartered , Synechron, Citibank, Aditya Birla , Capgemini , Virtusa Polaris , CTS, llyods banking , public sapient )
+
+
+*******************************************************
+
+1) Roles and responsibilities of AWS Data engineer 
+2) What kind of pipelines based on the tech stacks have u created in AWS ?
+3) What is aws step functions? Have you used this in your project?
+4) What is state machines in Step functions ?
+5) what is serverless application in lambda 
+6) what is the benefit of using serverless architecture
+7) Explain the Use Cases for Serverless Architecture?
+8) What are methods of re-using code across aws services 
+9) explain the AWS lambda layers 
+10) Explain the AWS Step Functions with Nested Workflows 
+11) what happens to a lambda function if lambda layer gets deleted 
+12) define all storage classes of aws s3 
+13) In Glue catalog , how do you list DB tables 
+14) how to apply incremental updates to a data pipelines in a data lake using glue 
+15) How to transfer data from json from s3 to red shift using glue 
+16) How to avoid reparation while deploying complex applications in step functions 
+17) what happens when some tasks fails in step function 
+18) Explain the components of AWS Glue and explain how you performed the AWS Glue Jobs in your project
+19) Explain how you deployed pyspark apps in AWS EMR application 
+20)  How Data Engineers Use AWS Data Pipeline?
+21) Explain data catalog in AWS 
+22) Explain how you used emr for creating the hive tables , explain with a usecase 
+23) Which clusters you use in EMR and why so ? 
+24) What is the size of production emr cluster used in your project 
+25) Explain AWS Redshift spectrum ? Spectrum AWS Tables on how the tables are begin created and  how we load the data in AWS Spectrum and also in the redshift or  any RDBMS (loading the data)
+26) Explain the difference between Amazon RDS and Amazon Redshift?
+27) What is AWS Glue, and how does it simplify the process of ETL (Extract, Transform, Load)?
+28) How can you ensure data security in Amazon EMR (Elastic MapReduce)?
+29) Explain the types of nodes in EMR cluster?
+30) Difference between Server and Serverless Architecture ?
+3!) What are the benefits of using AWS Glue Crawlers in data cataloging?
+32) How does AWS Glue support the concept of schema evolution in data engineering workflows?
+33) How can AWS Glue handle schema evolution in ETL jobs when the source data structure changes over time?
+34) How does Amazon Redshift Spectrum enhance data warehousing capabilities in AWS Redshift?
+35)  How can AWS CloudWatch be utilized in monitoring and managing the performance of data engineering workflows?
+36) What is AWS Glue Data Catalog, and how does it centralize metadata management in data engineering?
+37) How does AWS Glue support incremental data processing, and why is it important in data engineering?
+38) What is the purpose of AWS Glue DynamicFrames, and how do they simplify data transformations in ETL jobs?
+39) How does AWS Glue handle schema inference during the ETL process, and why is it beneficial in data engineering workflows?
+40) Explain the concept of AWS Glue Triggers and their role in automating ETL workflows.
+41) Explain the difference between Redshift Spectrum vs. Athena
+42) How to load correct data in redshift spectrum table?
+43) what happens when some tasks fails in step function 
+44) What is AWS Glue Spark Runtime, and how does it leverage Apache Spark for distributed data processing?
+
+
+
+
