@@ -1,0 +1,125 @@
+*******************************************************
+                PYTHON 
+*******************************************************
+
+
+Below Interview questions are collected from candidates who got placement in past 8 months :
+Companies ( TCS , HCL , CGI , TECHMAHINDRA , ALTRIMETRIX , WIPRO , Hexaware ,Accenture , Standard chartered , Synechron, Citibank, Aditya Birla , Capgemini , Virtusa Polaris , CTS, llyods banking , public sapient )
+
+***************************************************
+TYPE OF QUESTIONS : THOERY 
+
+1.Below is the string input , generate the output shown by writing a python program 
+
+str = "a,b$c"
+ 
+output = "c,b$a"
+
+2. lst = [2,22,222,2222]   --- This has to be generated dynamically based on inputs
+
+Write a python program for that 
+
+3.  a= [1,2,3,4,5]
+
+output [10,20,30,40,50]   
+Generate the output using list comprehension and lambda
+
+4.  find the min digit of list with out using built in functions
+
+5. Find the Longest Substring Without Repeating Characters
+Given a string, find the length of the longest substring without repeating characters.
+Input: "abcabcbb"
+Output: 3 (The longest substring without repeating characters is "abc", with length 3.)
+
+string = 'abcabcbb'
+
+6. Write a Python script that reads a CSV file named "scores.csv" with columns "StudentID", "Subject", and "Score", 
+and calculates the average score for each student across all subjects. 
+Save the result to a new CSV file named "student.csv" with columns "StudentID" and "AverageScore".
+
+7. Input:
+
+website1 = "http://google.com"
+website2 = "http://wikipedia.com"
+
+
+Output:
+
+google,wikipedia
+
+8. input:
+
+li = [1,2,1]
+
+output
+
+(1,1)
+(1,2)
+
+Generate the Output as shown 
+
+9. a = [1,3,5,6,7]  nth highest element
+
+n = 2
+
+10. 	
+input : [12, 67, 98, 34]
+output: [3, 13, 17, 7] with out inbuilt function
+Generate the Output without using inbuilt functions 
+11. a = [1,-4]
+b= [4,-1]
+
+each element of a when added with b how many 0's	   
+12. what is meta class in python
+13. diff between shallow copy and deep copy
+14. Constructor in python
+15. diff between Generator and Iterator
+16. Difference between list and tuple
+17. Input = [1,2,3,4,5] 
+
+Generate the output as square of above list .
+OP --> [1,4,9,16,25]
+
+18. Explain collections in python and which collections are mostly used in your project 
+19. Explain error handling in python , write down the sample code for that 
+20. what are decorators in python , why we use that in projects 
+21. Constructor in Python --. write down the sample code 
+22. what is class and method ? write down the sample code structure by creating a class and method 
+23. what is the difference between method and function 
+24. what are different class methods in python , which one is used most ?
+25. What is mutable and immutable data types in python 
+26. what is self key word in python 
+27. what is slicing in python 
+28. what is mro 
+29. How to create the dictionary ? write down the sample code 
+30. what is pickling and unpickling 
+31. what is module and packages 
+32. what are built in modules in python 
+33. What is __init__
+34. what is difference between .py and .pyc
+35. Input_list = [1,2,3,4,5,6,7,8,9] 
+    write a python code to separate even and odd number in a list ...
+    Below has to be the output
+    even_list=[2,4,6,8]
+    odd_list=[1,3,5,7,9]
+36. what is meant by higher order functions in python ?
+37. what is list comprehension ?
+38. Explain docstring and how you implemented in projects 
+39. How to read the csv file in python , write down the code 
+40. Write a Python program to swap two variables
+41. Write a Python program to display calendar.Did you used this in your project 
+42. Write a Python Program to Check if a Number is Positive, Negative or Zero
+43. Write a Python Program to Check Prime Number.
+44. Write a Python Program to Find the Factorial of a Number.
+45. Different python modules used in your project 
+46. Write a Python Program to Print the Fibonacci sequence
+47. Write a Python Program To Find ASCII value of a character
+48. Write a Python Program to Find Factorial of Number Using Recursion.
+49. Write a Python Program to find largest element in an array
+50. Write a python program  for Printing Odd Numbers Between O and 100 
+51. Difference between local variable and global variable
+52.  Checking if a List is Empty 
+53. What is the difference between implicit and explicit type conversion in python 
+
+
+
